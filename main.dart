@@ -10,9 +10,9 @@ void main() async {
 
   // Initialize Supabase
   await Supabase.initialize(
-    url: 'https://stiohhvkrooiveygsytw.supabase.co',
+    url: 'Enter Supabase URL',
     anonKey:
-        'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InN0aW9oaHZrcm9vaXZleWdzeXR3Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3NjUyNzg1ODAsImV4cCI6MjA4MDg1NDU4MH0.tn40o-MFfURykalwS0eRSg_KFT7w9pO6fS4PYQx_RdQ',
+        'Enter DB Security Key',
   );
 
   runApp(const HotelApp());
@@ -110,3 +110,4 @@ class AuthGate extends StatelessWidget {
     }
   }
 }
+
